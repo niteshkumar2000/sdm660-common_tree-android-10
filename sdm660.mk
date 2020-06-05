@@ -158,6 +158,11 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbtconfigstore \
+    vendor.qti.hardware.btconfigstore@1.0.vendor
+
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \
