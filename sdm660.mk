@@ -480,5 +480,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Offline Charging
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
